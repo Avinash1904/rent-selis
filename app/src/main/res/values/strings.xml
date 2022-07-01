@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rent-a-Selis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="trips">Trips</string>
+    <string name="locator">Bike Locator</string>
+    <string name="settings">Settings</string>
+</resources>

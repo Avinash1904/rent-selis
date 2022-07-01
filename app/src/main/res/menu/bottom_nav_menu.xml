@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/tripFragment"
+        android:icon="@drawable/ic_trip_history_24"
+        android:title="Trips" />
+    <item
+        android:id="@+id/bikeLocatorFragment"
+        android:icon="@drawable/ic_baseline_bike_locator_24"
+        android:title="Locator" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+</menu>

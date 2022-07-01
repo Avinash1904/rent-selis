@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.rent_a_selis.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/tripFragment"
+        android:name="com.example.rent_a_selis.TripFragment"
+        android:label="fragment_trip"
+        tools:layout="@layout/fragment_trip" />
+    <fragment
+        android:id="@+id/bikeLocatorFragment"
+        android:name="com.example.rent_a_selis.BikeLocatorFragment"
+        android:label="fragment_bike_locator"
+        tools:layout="@layout/fragment_bike_locator" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.rent_a_selis.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
